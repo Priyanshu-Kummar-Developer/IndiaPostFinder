@@ -40,10 +40,12 @@ A responsive web application to search for Indian post offices by **Pincode** or
 ## 📸 Screenshots
 
 ### 🔎 Desktop Search View
-![Desktop View](screenshots/Screenshot 2025-08-05 173510.png)
+![Desktop View]
+<img src="screenshots/Screenshot 2025-08-05 173510.png" alt="Homepage" width="600"/>
 
 ### 📱 Mobile View
-![Mobile View](screenshots/Screenshot 2025-08-05 173554.png)
+![Mobile View]
+<img src="screenshots/Screenshot 2025-08-05 173554.png" alt="Homepage" width="600"/>
 
 ---
 
