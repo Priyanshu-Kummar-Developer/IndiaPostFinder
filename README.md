@@ -40,10 +40,10 @@ A responsive web application to search for Indian post offices by **Pincode** or
 ## 📸 Screenshots
 
 ### 🔎 Desktop Search View
-![Desktop View](./screenshots/desktop-view.png)
+![Desktop View](./screenshots/Screenshot 2025-08-05 173510.png)
 
 ### 📱 Mobile View
-![Mobile View](./screenshots/mobile-view.png)
+![Mobile View](./screenshots/Screenshot 2025-08-05 173554.png)
 
 ---
 
