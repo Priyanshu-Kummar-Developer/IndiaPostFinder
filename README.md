@@ -9,7 +9,7 @@ A responsive web application to search for Indian post offices by **Pincode** or
 
 ## 🚀 Live Demo
 
-👉 [Click to View Live Project](https://your-netlify-link.netlify.app)  
+👉 [Click to View Live Project](https://indiapostfinder.netlify.app/)  
 *(Replace with your Netlify link)*
 
 ---
@@ -75,7 +75,7 @@ open index.html   # or open in browser manually
 ## 📧 Contact
 
 > 💬 Made with ❤️ by **Priyanshu Kumar**  
-> 🔗 [LinkedIn](https://www.linkedin.com/in/priyanshu-kummar-developer)  
+> 🔗 [LinkedIn](https://www.linkedin.com/in/priyanshu-kumar-287a59345/)  
 > ✉️ Email: your-priyanshujaiswara@gmail.com *(update if you want)*
 
 ---
