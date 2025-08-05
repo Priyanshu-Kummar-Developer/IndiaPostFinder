@@ -63,7 +63,7 @@ A responsive web application to search for Indian post offices by **Pincode** or
 ## ⚙️ How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/IndiaPostFinder.git
+git clone https://github.com/Priyanshu-Kummar-Developer/IndiaPostFinder
 cd IndiaPostFinder
 open index.html   # or open in browser manually
 ```
@@ -74,7 +74,7 @@ open index.html   # or open in browser manually
 
 > 💬 Made with ❤️ by **Priyanshu Kumar**  
 > 🔗 [LinkedIn](https://www.linkedin.com/in/priyanshu-kummar-developer)  
-> ✉️ Email: your-email@example.com *(update if you want)*
+> ✉️ Email: your-priyanshujaiswara@gmail.com *(update if you want)*
 
 ---
 
