@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>India Post Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">India Post Finder</div>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#">🔍 Search</a></li>
+                <li><a href="#">ℹ️ About</a></li>
+                <li><a href="#">📞 Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Search Section -->
+    <section id="home" class="section">
+        <h2>Find Post Office Details</h2>
+        <div class="search-box">
+            <select id="searchType">
+                <option value="pincode">Search by PIN Code</option>
+                <option value="postoffice">Search by Post Office Name</option>
+                <option value="area">Search by Area</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Enter your search..." />
+            <button onclick="searchPostOffice()">Search</button>
+        </div>
+        <div id="results"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Find any post office by PIN code or name easily. Simple, fast & reliable.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Stay updated with new features.</p>
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 India Post Finder | Designed by Priyanshu Kumar</p>
+        </div>
+    </footer>
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
